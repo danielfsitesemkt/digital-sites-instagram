@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Post Digital Sites — 18/06/2026</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&family=Barlow:wght@400;600&family=DM+Mono:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      gap: 40px;
+      font-family: 'Barlow', sans-serif;
+    }
+
+    .slide {
+      width: 1080px;
+      height: 1350px;
+      background: #111111;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      padding: 72px 80px 80px;
+    }
+
+    /* Label topo */
+    .brand-label {
+      font-family: 'DM Mono', monospace;
+      font-weight: 500;
+      font-size: 22px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #00D4FF;
+      margin-bottom: 0;
+    }
+
+    /* Divisor topo */
+    .top-divider {
+      width: 64px;
+      height: 3px;
+      background: #00D4FF;
+      margin-top: 18px;
+    }
+
+    /* Slide 1 — Capa */
+    .slide-1 .content-area {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .slide-1 .tag-category {
+      font-family: 'DM Mono', monospace;
+      font-size: 18px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #00D4FF;
+      margin-bottom: 32px;
+      opacity: 0.7;
+    }
+
+    .slide-1 .main-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 116px;
+      line-height: 1.0;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+      margin-bottom: 48px;
+    }
+
+    .slide-1 .main-title .highlight {
+      color: #00D4FF;
+    }
+
+    .slide-1 .subtitle {
+      font-family: 'Barlow', sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+      color: #B0BFD0;
+      line-height: 1.5;
+      max-width: 800px;
+    }
+
+    .slide-1 .deco-line {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 6px;
+      background: linear-gradient(90deg, #00D4FF 0%, #A7F815 100%);
+    }
+
+    /* Slide 2 e 3 — Conteúdo */
+    .slide-content .section-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 18px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #00D4FF;
+      opacity: 0.7;
+      margin-top: 56px;
+      margin-bottom: 24px;
+    }
+
+    .slide-content .section-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 80px;
+      line-height: 1.05;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-bottom: 72px;
+    }
+
+    .slide-content .section-title .highlight {
+      color: #00D4FF;
+    }
+
+    .slide-content .points {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 0;
+    }
+
+    .slide-content .point-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 32px;
+      padding: 44px 0;
+      border-bottom: 1px solid rgba(176, 191, 208, 0.12);
+    }
+
+    .slide-content .point-item:first-child {
+      border-top: 1px solid rgba(176, 191, 208, 0.12);
+    }
+
+    .slide-content .point-emoji {
+      font-size: 52px;
+      line-height: 1;
+      flex-shrink: 0;
+      width: 64px;
+      text-align: center;
+      margin-top: 4px;
+    }
+
+    .slide-content .point-text {
+      font-family: 'Barlow', sans-serif;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 1.4;
+      color: #B0BFD0;
+    }
+
+    .slide-content .point-text strong {
+      color: #FFFFFF;
+      font-weight: 600;
+    }
+
+    .slide-content .deco-line {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 6px;
+      background: linear-gradient(90deg, #00D4FF 0%, #A7F815 100%);
+    }
+
+    /* Slide 4 — CTA */
+    .slide-4 .content-area {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .slide-4 .cta-pre {
+      font-family: 'DM Mono', monospace;
+      font-size: 20px;
+      letter-spacing: 0.1em;
+      color: #00D4FF;
+      text-transform: uppercase;
+      margin-bottom: 36px;
+      opacity: 0.8;
+    }
+
+    .slide-4 .cta-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 108px;
+      line-height: 1.0;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-bottom: 60px;
+    }
+
+    .slide-4 .cta-title .highlight {
+      color: #00D4FF;
+    }
+
+    .slide-4 .cta-subtitle {
+      font-family: 'Barlow', sans-serif;
+      font-size: 36px;
+      color: #B0BFD0;
+      margin-bottom: 80px;
+      line-height: 1.4;
+    }
+
+    .slide-4 .cta-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+      background: #A7F815;
+      color: #000000;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 44px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 28px 56px;
+      border-radius: 4px;
+      margin-bottom: 48px;
+    }
+
+    .slide-4 .cta-handle {
+      font-family: 'DM Mono', monospace;
+      font-size: 26px;
+      color: #00D4FF;
+      letter-spacing: 0.06em;
+      opacity: 0.9;
+    }
+
+    .slide-4 .deco-line {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 6px;
+      background: linear-gradient(90deg, #00D4FF 0%, #A7F815 100%);
+    }
+
+    /* Número do slide */
+    .slide-number {
+      position: absolute;
+      bottom: 40px;
+      right: 80px;
+      font-family: 'DM Mono', monospace;
+      font-size: 18px;
+      color: rgba(176, 191, 208, 0.3);
+      letter-spacing: 0.1em;
+    }
+
+    /* Background deco elements */
+    .bg-circle {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.04;
+      background: #00D4FF;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== SLIDE 1 — CAPA ===== -->
+  <div class="slide slide-1">
+    <div class="bg-circle" style="width:900px;height:900px;top:-300px;right:-200px;"></div>
+    <div class="bg-circle" style="width:400px;height:400px;bottom:100px;left:-100px;opacity:0.03;background:#A7F815;"></div>
+
+    <span class="brand-label">Digital Sites</span>
+    <div class="top-divider"></div>
+
+    <div class="content-area">
+      <div class="tag-category">// Tendência da semana</div>
+      <h1 class="main-title">
+        Seu negócio<br/>
+        pode <span class="highlight">vender</span><br/>
+        ao vivo no<br/>
+        Instagram
+      </h1>
+      <p class="subtitle">
+        Live Shopping chegou de vez para<br/>
+        pequenas empresas no Brasil — e seus<br/>
+        concorrentes já estão usando.
+      </p>
+    </div>
+
+    <div class="deco-line"></div>
+    <span class="slide-number">01 / 04</span>
+  </div>
+
+  <!-- ===== SLIDE 2 — PROBLEMA ===== -->
+  <div class="slide slide-content">
+    <div class="bg-circle" style="width:700px;height:700px;bottom:-200px;right:-150px;"></div>
+
+    <span class="brand-label">Digital Sites</span>
+    <div class="top-divider"></div>
+
+    <div class="section-label">// O problema</div>
+    <h2 class="section-title">
+      Por que seu<br/>
+      Instagram não<br/>
+      <span class="highlight">vende</span> ainda?
+    </h2>
+
+    <div class="points">
+      <div class="point-item">
+        <span class="point-emoji">😶</span>
+        <p class="point-text">Você posta todo dia mas <strong>não vê vendas acontecendo</strong> em tempo real</p>
+      </div>
+      <div class="point-item">
+        <span class="point-emoji">📉</span>
+        <p class="point-text">Seus concorrentes já fazem Lives e <strong>faturam em minutos</strong> de transmissão</p>
+      </div>
+      <div class="point-item">
+        <span class="point-emoji">🚨</span>
+        <p class="point-text">Live Shopping cresceu <strong>300% ao ano</strong> no Brasil — e a tendência só acelera</p>
+      </div>
+    </div>
+
+    <div class="deco-line"></div>
+    <span class="slide-number">02 / 04</span>
+  </div>
+
+  <!-- ===== SLIDE 3 — SOLUÇÃO ===== -->
+  <div class="slide slide-content">
+    <div class="bg-circle" style="width:600px;height:600px;top:-100px;right:-100px;background:#A7F815;opacity:0.03;"></div>
+
+    <span class="brand-label">Digital Sites</span>
+    <div class="top-divider"></div>
+
+    <div class="section-label">// A solução</div>
+    <h2 class="section-title">
+      Como começar<br/>
+      a <span class="highlight">vender</span><br/>
+      ao vivo hoje
+    </h2>
+
+    <div class="points">
+      <div class="point-item">
+        <span class="point-emoji">🎥</span>
+        <p class="point-text">Abra uma <strong>Live no Instagram</strong> e mostre seu produto ou serviço ao vivo</p>
+      </div>
+      <div class="point-item">
+        <span class="point-emoji">🛒</span>
+        <p class="point-text">Ative o <strong>Instagram Shopping</strong> e marque preços direto no Reels</p>
+      </div>
+      <div class="point-item">
+        <span class="point-emoji">💬</span>
+        <p class="point-text">Responda dúvidas na hora — <strong>o cliente compra sem sair do app</strong></p>
+      </div>
+    </div>
+
+    <div class="deco-line"></div>
+    <span class="slide-number">03 / 04</span>
+  </div>
+
+  <!-- ===== SLIDE 4 — CTA ===== -->
+  <div class="slide slide-4">
+    <div class="bg-circle" style="width:800px;height:800px;bottom:-300px;right:-200px;background:#A7F815;opacity:0.04;"></div>
+    <div class="bg-circle" style="width:350px;height:350px;top:80px;right:60px;opacity:0.05;"></div>
+
+    <span class="brand-label">Digital Sites</span>
+    <div class="top-divider"></div>
+
+    <div class="content-area">
+      <div class="cta-pre">// Pronto para crescer?</div>
+      <h2 class="cta-title">
+        Quer isso<br/>
+        no seu<br/>
+        <span class="highlight">negócio?</span>
+      </h2>
+      <p class="cta-subtitle">
+        A gente monta sua estratégia de<br/>
+        Live Shopping do zero. 👇
+      </p>
+      <div class="cta-button">
+        Fala com a gente 👇
+      </div>
+      <span class="cta-handle">@digitalsites.com.br</span>
+    </div>
+
+    <div class="deco-line"></div>
+    <span class="slide-number">04 / 04</span>
+  </div>
+
+</body>
+</html>
