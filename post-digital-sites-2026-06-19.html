@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Post Digital Sites — 19/06/2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&family=Barlow:wght@400;600&family=DM+Mono:wght@500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0a0a0a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 32px;
+      padding: 40px 20px;
+      font-family: 'Barlow', sans-serif;
+    }
+
+    .slide {
+      width: 1080px;
+      height: 1350px;
+      background: #111111;
+      display: flex;
+      flex-direction: column;
+      padding: 64px 80px 72px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Subtle grid texture */
+    .slide::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(0,212,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,212,255,0.03) 1px, transparent 1px);
+      background-size: 60px 60px;
+      pointer-events: none;
+    }
+
+    /* Top accent line */
+    .slide::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #00D4FF 0%, #A7F815 100%);
+    }
+
+    .brand-label {
+      font-family: 'DM Mono', monospace;
+      font-weight: 500;
+      font-size: 18px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #00D4FF;
+      margin-bottom: auto;
+    }
+
+    /* ─── SLIDE 1 ─── */
+    .slide-1 .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 40px;
+    }
+
+    .slide-1 .eyebrow {
+      font-family: 'DM Mono', monospace;
+      font-size: 16px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #A7F815;
+      margin-bottom: 32px;
+    }
+
+    .slide-1 .headline {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 112px;
+      line-height: 0.95;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+      margin-bottom: 48px;
+    }
+
+    .slide-1 .headline .highlight {
+      color: #00D4FF;
+      display: block;
+    }
+
+    .slide-1 .subline {
+      font-family: 'Barlow', sans-serif;
+      font-size: 28px;
+      font-weight: 400;
+      color: #B0BFD0;
+      line-height: 1.5;
+      max-width: 700px;
+    }
+
+    .slide-1 .badge {
+      margin-top: 60px;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(0,212,255,0.08);
+      border: 1px solid rgba(0,212,255,0.25);
+      border-radius: 8px;
+      padding: 16px 28px;
+      width: fit-content;
+    }
+
+    .slide-1 .badge-dot {
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      background: #A7F815;
+      box-shadow: 0 0 10px #A7F815;
+    }
+
+    .slide-1 .badge-text {
+      font-family: 'DM Mono', monospace;
+      font-size: 16px;
+      color: #B0BFD0;
+      letter-spacing: 0.08em;
+    }
+
+    .slide-1 .bottom-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: auto;
+    }
+
+    .slide-1 .category-tag {
+      font-family: 'DM Mono', monospace;
+      font-size: 14px;
+      letter-spacing: 0.15em;
+      color: #555;
+      text-transform: uppercase;
+    }
+
+    .slide-1 .slide-num {
+      font-family: 'DM Mono', monospace;
+      font-size: 14px;
+      color: #333;
+      letter-spacing: 0.1em;
+    }
+
+    /* ─── SLIDES 2 & 3 ─── */
+    .slide-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 20px;
+    }
+
+    .section-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 15px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #A7F815;
+      margin-bottom: 28px;
+    }
+
+    .slide-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 80px;
+      line-height: 1.0;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-bottom: 64px;
+    }
+
+    .slide-title .highlight { color: #00D4FF; }
+
+    .point-list {
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+    }
+
+    .point {
+      display: flex;
+      align-items: flex-start;
+      gap: 28px;
+    }
+
+    .point-icon {
+      font-size: 40px;
+      line-height: 1;
+      flex-shrink: 0;
+      margin-top: 4px;
+    }
+
+    .point-body {}
+
+    .point-title {
+      font-family: 'Barlow', sans-serif;
+      font-weight: 600;
+      font-size: 32px;
+      color: #FFFFFF;
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+
+    .point-desc {
+      font-family: 'Barlow', sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      color: #B0BFD0;
+      line-height: 1.5;
+    }
+
+    .divider {
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, #00D4FF, transparent);
+      margin: 0 0 60px;
+    }
+
+    .slide-footer {
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .slide-footer .handle {
+      font-family: 'DM Mono', monospace;
+      font-size: 16px;
+      color: #333;
+      letter-spacing: 0.06em;
+    }
+
+    .slide-footer .slide-num {
+      font-family: 'DM Mono', monospace;
+      font-size: 14px;
+      color: #333;
+    }
+
+    /* ─── SLIDE 4 (CTA) ─── */
+    .slide-4 {
+      justify-content: space-between;
+    }
+
+    .slide-4 .cta-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 0;
+    }
+
+    .slide-4 .cta-tag {
+      font-family: 'DM Mono', monospace;
+      font-size: 16px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #A7F815;
+      margin-bottom: 40px;
+    }
+
+    .slide-4 .cta-headline {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 96px;
+      line-height: 0.95;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    .slide-4 .cta-headline .highlight {
+      color: #00D4FF;
+    }
+
+    .slide-4 .cta-sub {
+      font-family: 'Barlow', sans-serif;
+      font-size: 28px;
+      color: #B0BFD0;
+      margin-bottom: 72px;
+      line-height: 1.5;
+    }
+
+    .slide-4 .cta-btn {
+      display: inline-block;
+      background: #A7F815;
+      color: #000000;
+      font-family: 'Barlow', sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      padding: 28px 72px;
+      border-radius: 8px;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+      margin-bottom: 40px;
+      box-shadow: 0 0 40px rgba(167,248,21,0.25);
+    }
+
+    .slide-4 .cta-handle {
+      font-family: 'DM Mono', monospace;
+      font-size: 22px;
+      color: #00D4FF;
+      letter-spacing: 0.06em;
+    }
+
+    .slide-4 .slide-footer {
+      margin-top: 0;
+    }
+
+    /* Decorative corner accent */
+    .corner-accent {
+      position: absolute;
+      bottom: 80px;
+      right: 80px;
+      width: 120px;
+      height: 120px;
+      border-right: 2px solid rgba(0,212,255,0.15);
+      border-bottom: 2px solid rgba(0,212,255,0.15);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══ SLIDE 1 — CAPA ═══ -->
+  <div class="slide slide-1">
+    <span class="brand-label">Digital Sites</span>
+
+    <div class="content">
+      <div class="eyebrow">Case de Resultado · Sexta-feira</div>
+
+      <h1 class="headline">
+        Com R$10/dia<br>
+        esse negócio<br>
+        <span class="highlight">triplicou</span><br>
+        os clientes
+      </h1>
+
+      <p class="subline">Como o tráfego pago local virou a chave<br>para pequenos negócios em 2026.</p>
+
+      <div class="badge">
+        <span class="badge-dot"></span>
+        <span class="badge-text">Meta Ads IA · Google Maps Ads · Resultado Real</span>
+      </div>
+    </div>
+
+    <div class="bottom-bar">
+      <span class="category-tag">Venda / Case / Resultado</span>
+      <span class="slide-num">01 / 04</span>
+    </div>
+
+    <div class="corner-accent"></div>
+  </div>
+
+  <!-- ═══ SLIDE 2 — PROBLEMA ═══ -->
+  <div class="slide">
+    <span class="brand-label">Digital Sites</span>
+
+    <div class="slide-content">
+      <div class="section-label">O problema</div>
+
+      <h2 class="slide-title">Por que seu<br><span class="highlight">dinheiro</span><br>some<br>nos anúncios?</h2>
+
+      <div class="divider"></div>
+
+      <div class="point-list">
+        <div class="point">
+          <span class="point-icon">📉</span>
+          <div class="point-body">
+            <div class="point-title">Anúncio genérico = dinheiro no lixo</div>
+            <div class="point-desc">Você paga para aparecer para o Brasil inteiro quando seu cliente está a 2km de distância.</div>
+          </div>
+        </div>
+
+        <div class="point">
+          <span class="point-icon">🎯</span>
+          <div class="point-body">
+            <div class="point-title">Sem segmentação local, zero retorno</div>
+            <div class="point-desc">Barbearia, restaurante e loja precisam de clientes perto — não de alcance nacional.</div>
+          </div>
+        </div>
+
+        <div class="point">
+          <span class="point-icon">😤</span>
+          <div class="point-body">
+            <div class="point-title">R$500/mês sumindo sem saber de onde vem um cliente</div>
+            <div class="point-desc">Sem rastreamento local, você nunca sabe o que funciona e continua pagando no escuro.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-footer">
+      <span class="handle">@digitalsites.com.br</span>
+      <span class="slide-num">02 / 04</span>
+    </div>
+
+    <div class="corner-accent"></div>
+  </div>
+
+  <!-- ═══ SLIDE 3 — SOLUÇÃO ═══ -->
+  <div class="slide">
+    <span class="brand-label">Digital Sites</span>
+
+    <div class="slide-content">
+      <div class="section-label">A virada de chave</div>
+
+      <h2 class="slide-title">Tráfego<br><span class="highlight">local</span><br>que gera<br>resultado</h2>
+
+      <div class="divider"></div>
+
+      <div class="point-list">
+        <div class="point">
+          <span class="point-icon">📍</span>
+          <div class="point-body">
+            <div class="point-title">Google Maps Ads: apareça na hora certa</div>
+            <div class="point-desc">Seu negócio aparece quando alguém procura o que você oferece a poucos metros.</div>
+          </div>
+        </div>
+
+        <div class="point">
+          <span class="point-icon">🤖</span>
+          <div class="point-body">
+            <div class="point-title">Meta Ads IA Advantage+ otimiza sozinho</div>
+            <div class="point-desc">A IA do Meta encontra seu cliente ideal em 2026 sem você precisar mexer em campanha todo dia.</div>
+          </div>
+        </div>
+
+        <div class="point">
+          <span class="point-icon">💰</span>
+          <div class="point-body">
+            <div class="point-title">R$10/dia já valida e gera clientes reais</div>
+            <div class="point-desc">Com pouco investimento você testa, prova o resultado e escala o que funciona — sem risco.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-footer">
+      <span class="handle">@digitalsites.com.br</span>
+      <span class="slide-num">03 / 04</span>
+    </div>
+
+    <div class="corner-accent"></div>
+  </div>
+
+  <!-- ═══ SLIDE 4 — CTA ═══ -->
+  <div class="slide slide-4">
+    <span class="brand-label">Digital Sites</span>
+
+    <div class="cta-body">
+      <div class="cta-tag">Próximo passo</div>
+
+      <h2 class="cta-headline">Quer isso<br>no seu<br><span class="highlight">negócio?</span></h2>
+
+      <p class="cta-sub">A gente cuida do digital.<br>Você cuida do que faz de melhor.</p>
+
+      <a class="cta-btn" href="#">Fala com a gente 👇</a>
+
+      <span class="cta-handle">@digitalsites.com.br</span>
+    </div>
+
+    <div class="slide-footer">
+      <span class="handle">digitalsites.com.br</span>
+      <span class="slide-num">04 / 04</span>
+    </div>
+
+    <div class="corner-accent"></div>
+  </div>
+
+</body>
+</html>
