@@ -1,319 +1,212 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Post Digital Sites — 2026-06-19</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&family=Barlow:wght@400;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Digital Sites — 2026-06-19</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&family=Barlow:wght@400;600&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #000; font-family: 'Barlow', sans-serif; }
 
-    body {
-      background: #0a0a0a;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 40px;
-      padding: 40px;
-    }
+        .slide {
+            width: 1080px;
+            height: 1350px;
+            background: #111111;
+            display: flex;
+            flex-direction: column;
+            padding: 80px;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 24px;
+        }
 
-    .slide {
-      width: 1080px;
-      height: 1350px;
-      background: #111111;
-      display: flex;
-      flex-direction: column;
-      padding: 64px 72px;
-      position: relative;
-      overflow: hidden;
-    }
+        .label {
+            font-family: 'DM Mono', monospace;
+            font-size: 20px;
+            font-weight: 500;
+            color: #00D4FF;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin-bottom: 0;
+        }
 
-    .label {
-      font-family: 'DM Mono', monospace;
-      font-size: 18px;
-      font-weight: 500;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      color: #00D4FF;
-      margin-bottom: 0;
-    }
+        /* ── SLIDE 1 ── */
+        .slide-1 .body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .slide-1 .deco { width: 72px; height: 5px; background: #00D4FF; margin-bottom: 40px; }
+        .slide-1 .pre {
+            font-family: 'DM Mono', monospace;
+            font-size: 18px;
+            color: #00D4FF;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 28px;
+        }
+        .slide-1 h1 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 800;
+            font-size: 132px;
+            line-height: 0.92;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+        .slide-1 h1 .hl { color: #00D4FF; }
+        .slide-1 .sub {
+            font-size: 30px;
+            color: #B0BFD0;
+            line-height: 1.5;
+            max-width: 780px;
+        }
 
-    .slide-content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      flex: 1;
-      padding-top: 40px;
-    }
+        /* ── SLIDES 2 & 3 ── */
+        .slide-mid .body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .slide-mid h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 800;
+            font-size: 80px;
+            line-height: 1;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin-bottom: 64px;
+        }
+        .slide-mid h2 .hl { color: #00D4FF; }
+        .point {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 52px;
+        }
+        .point .ic {
+            font-size: 46px;
+            margin-right: 28px;
+            flex-shrink: 0;
+            line-height: 1.1;
+        }
+        .point .txt {
+            font-size: 36px;
+            color: #B0BFD0;
+            line-height: 1.35;
+        }
+        .point .txt strong { color: #FFFFFF; font-weight: 600; }
 
-    h1 {
-      font-family: 'Barlow Condensed', sans-serif;
-      font-weight: 800;
-      font-size: 110px;
-      line-height: 0.95;
-      color: #FFFFFF;
-      text-transform: uppercase;
-      margin-bottom: 44px;
-    }
-
-    h1 span { color: #00D4FF; }
-
-    h2 {
-      font-family: 'Barlow Condensed', sans-serif;
-      font-weight: 800;
-      font-size: 76px;
-      line-height: 1.05;
-      color: #FFFFFF;
-      text-transform: uppercase;
-      margin-bottom: 48px;
-    }
-
-    h2 span { color: #00D4FF; }
-
-    .body-text {
-      font-family: 'Barlow', sans-serif;
-      font-weight: 400;
-      font-size: 38px;
-      line-height: 1.55;
-      color: #B0BFD0;
-    }
-
-    .tag {
-      display: inline-block;
-      background: #00D4FF;
-      color: #000000;
-      font-family: 'DM Mono', monospace;
-      font-size: 19px;
-      font-weight: 500;
-      padding: 8px 22px;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 44px;
-      width: fit-content;
-    }
-
-    .divider {
-      width: 80px;
-      height: 4px;
-      background: #00D4FF;
-      margin-bottom: 52px;
-    }
-
-    .point {
-      font-family: 'Barlow', sans-serif;
-      font-weight: 400;
-      font-size: 36px;
-      line-height: 1.5;
-      color: #B0BFD0;
-      margin-bottom: 36px;
-      display: flex;
-      align-items: flex-start;
-      gap: 20px;
-    }
-
-    .emoji {
-      font-size: 40px;
-      flex-shrink: 0;
-      margin-top: 2px;
-    }
-
-    .result-box {
-      background: rgba(0, 212, 255, 0.06);
-      border-left: 5px solid #00D4FF;
-      padding: 32px 44px;
-      margin-bottom: 52px;
-    }
-
-    .result-number {
-      font-family: 'Barlow Condensed', sans-serif;
-      font-weight: 800;
-      font-size: 128px;
-      color: #A7F815;
-      line-height: 1;
-    }
-
-    .result-label {
-      font-family: 'Barlow', sans-serif;
-      font-size: 30px;
-      color: #B0BFD0;
-      margin-top: 10px;
-    }
-
-    .cta-main {
-      font-family: 'Barlow Condensed', sans-serif;
-      font-weight: 800;
-      font-size: 92px;
-      line-height: 1.0;
-      color: #FFFFFF;
-      text-transform: uppercase;
-      margin-bottom: 28px;
-    }
-
-    .cta-main span { color: #00D4FF; }
-
-    .cta-sub {
-      font-family: 'Barlow', sans-serif;
-      font-weight: 400;
-      font-size: 36px;
-      color: #B0BFD0;
-      margin-bottom: 56px;
-    }
-
-    .cta-button {
-      display: inline-block;
-      background: #A7F815;
-      color: #000000;
-      font-family: 'Barlow Condensed', sans-serif;
-      font-weight: 800;
-      font-size: 52px;
-      padding: 28px 64px;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      margin-bottom: 40px;
-      width: fit-content;
-    }
-
-    .handle {
-      font-family: 'DM Mono', monospace;
-      font-size: 28px;
-      color: #00D4FF;
-      letter-spacing: 0.06em;
-    }
-
-    .accent-dot {
-      position: absolute;
-      top: 64px;
-      right: 72px;
-      width: 14px;
-      height: 14px;
-      background: #00D4FF;
-      border-radius: 50%;
-    }
-
-    .accent-ring {
-      position: absolute;
-      bottom: -120px;
-      right: -120px;
-      width: 380px;
-      height: 380px;
-      border: 3px solid #00D4FF;
-      opacity: 0.06;
-      border-radius: 50%;
-    }
-
-    .bg-number {
-      position: absolute;
-      right: 40px;
-      bottom: 40px;
-      font-family: 'Barlow Condensed', sans-serif;
-      font-weight: 800;
-      font-size: 320px;
-      color: #ffffff;
-      opacity: 0.02;
-      line-height: 1;
-      user-select: none;
-      pointer-events: none;
-    }
-  </style>
+        /* ── SLIDE 4 ── */
+        .slide-4 {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .slide-4 .label {
+            position: absolute;
+            top: 80px;
+            left: 80px;
+        }
+        .slide-4 h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 800;
+            font-size: 100px;
+            line-height: 1;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin-bottom: 28px;
+        }
+        .slide-4 h2 .hl { color: #00D4FF; }
+        .slide-4 .sub {
+            font-size: 42px;
+            color: #B0BFD0;
+            margin-bottom: 80px;
+        }
+        .cta-btn {
+            display: inline-block;
+            background: #A7F815;
+            color: #000000;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 800;
+            font-size: 52px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 30px 90px;
+            border-radius: 8px;
+            margin-bottom: 64px;
+        }
+        .slide-4 .handle {
+            font-family: 'DM Mono', monospace;
+            font-size: 28px;
+            color: #00D4FF;
+            letter-spacing: 2px;
+        }
+    </style>
 </head>
 <body>
 
-  <!-- SLIDE 1: CAPA -->
-  <div class="slide">
-    <div class="accent-dot"></div>
-    <div class="accent-ring"></div>
-    <div class="bg-number">2×</div>
-
-    <span class="label">Digital Sites</span>
-
-    <div class="slide-content">
-      <span class="tag">Case Real &middot; Sexta de Resultado</span>
-      <h1>
-        Este negócio<br>
-        local <span>dobrou</span><br>
-        o faturamento<br>
-        em 5 meses
-      </h1>
-      <p class="body-text">Usando Google + Instagram.<br>Sem segredo. Sem sorte.</p>
+<!-- ══ SLIDE 1 — CAPA ══ -->
+<div class="slide slide-1">
+    <div class="label">Digital Sites</div>
+    <div class="body">
+        <div class="deco"></div>
+        <div class="pre">Case &amp; Resultado · Sexta-feira</div>
+        <h1>SEU<br>INSTA<span class="hl">GRAM</span><br>PODE<br><span class="hl">VENDER</span><br>TODO DIA</h1>
+        <p class="sub">Negócios como o seu já estão provando isso na prática.</p>
     </div>
-  </div>
+</div>
 
-  <!-- SLIDE 2: PROBLEMA -->
-  <div class="slide">
-    <div class="accent-dot"></div>
-    <div class="accent-ring"></div>
-    <div class="bg-number">?</div>
-
-    <span class="label">Digital Sites</span>
-
-    <div class="slide-content">
-      <h2>O que estava <span>travando</span><br>as vendas?</h2>
-      <div class="divider"></div>
-
-      <div class="point">
-        <span class="emoji">📉</span>
-        <span>Dependia só de indicação — sem nenhuma presença digital ativa</span>
-      </div>
-      <div class="point">
-        <span class="emoji">🔇</span>
-        <span>Instagram parado há meses, sem conteúdo e sem estratégia nenhuma</span>
-      </div>
-      <div class="point">
-        <span class="emoji">💸</span>
-        <span>Achava que anunciar era caro demais e "não era para negócio pequeno"</span>
-      </div>
+<!-- ══ SLIDE 2 — PROBLEMA ══ -->
+<div class="slide slide-mid">
+    <div class="label">Digital Sites</div>
+    <div class="body">
+        <h2>POR QUE SEU<br><span class="hl">INSTA NÃO</span><br>VENDE?</h2>
+        <div class="point">
+            <span class="ic">❌</span>
+            <span class="txt">Você posta todo dia, mas <strong>nenhum cliente aparece</strong></span>
+        </div>
+        <div class="point">
+            <span class="ic">❌</span>
+            <span class="txt">Tem seguidores, mas <strong>ninguém compra nada</strong></span>
+        </div>
+        <div class="point">
+            <span class="ic">❌</span>
+            <span class="txt">Acha que <strong>"Instagram não funciona"</strong> pro seu negócio</span>
+        </div>
     </div>
-  </div>
+</div>
 
-  <!-- SLIDE 3: SOLUÇÃO -->
-  <div class="slide">
-    <div class="accent-dot"></div>
-    <div class="accent-ring"></div>
-    <div class="bg-number">✓</div>
-
-    <span class="label">Digital Sites</span>
-
-    <div class="slide-content">
-      <h2>O que mudou em <span>5 meses</span>?</h2>
-      <div class="divider"></div>
-
-      <div class="point">
-        <span class="emoji">🎯</span>
-        <span>Google Ads + Meta Ads com segmentação local — alcançando quem está perto e pronto para comprar</span>
-      </div>
-      <div class="point">
-        <span class="emoji">📲</span>
-        <span>Instagram ativo com prova social: fotos reais, avaliações e resultados visíveis</span>
-      </div>
-      <div class="point">
-        <span class="emoji">💬</span>
-        <span>WhatsApp estruturado para responder rápido e fechar a venda na hora</span>
-      </div>
+<!-- ══ SLIDE 3 — SOLUÇÃO ══ -->
+<div class="slide slide-mid">
+    <div class="label">Digital Sites</div>
+    <div class="body">
+        <h2>O QUE MUDA<br>QUANDO VOCÊ<br><span class="hl">FAZ CERTO:</span></h2>
+        <div class="point">
+            <span class="ic">✅</span>
+            <span class="txt">Perfil com <strong>localização, link e contato</strong> sempre visíveis</span>
+        </div>
+        <div class="point">
+            <span class="ic">✅</span>
+            <span class="txt">Conteúdo mostrando <strong>resultado real:</strong> antes, depois, bastidor</span>
+        </div>
+        <div class="point">
+            <span class="ic">✅</span>
+            <span class="txt">Todo post termina com <strong>CTA direto pro WhatsApp</strong></span>
+        </div>
     </div>
-  </div>
+</div>
 
-  <!-- SLIDE 4: CTA -->
-  <div class="slide">
-    <div class="accent-dot"></div>
-    <div class="accent-ring"></div>
-
-    <span class="label">Digital Sites</span>
-
-    <div class="slide-content">
-      <div class="result-box">
-        <div class="result-number">2×</div>
-        <div class="result-label">faturamento em 5 meses — para um negócio local real</div>
-      </div>
-
-      <div class="cta-main">Quer isso no<br>seu <span>negócio</span>?</div>
-      <p class="cta-sub">A gente monta a estratégia certa pra você.</p>
-
-      <div class="cta-button">Fala com a gente 👇</div>
-      <p class="handle">@digitalsites.com.br</p>
-    </div>
-  </div>
+<!-- ══ SLIDE 4 — CTA ══ -->
+<div class="slide slide-4">
+    <div class="label">Digital Sites</div>
+    <h2>QUER ISSO<br>NO SEU <span class="hl">NEGÓCIO?</span></h2>
+    <p class="sub">Fala com a gente 👇</p>
+    <div class="cta-btn">CHAMAR AGORA</div>
+    <div class="handle">@digitalsites.com.br</div>
+</div>
 
 </body>
 </html>
