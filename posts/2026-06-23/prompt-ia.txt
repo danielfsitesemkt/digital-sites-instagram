@@ -1,0 +1,45 @@
+Crie um carrossel contínuo para o Instagram composto por 4 imagens integradas em uma
+única arte retangular panorâmica, que será recortada em 4 partes iguais (proporção
+final de cada tela: 4:5).
+
+Regra obrigatória de branding: ignore qualquer marca d'água ou @ de outros perfis.
+Substitua todos pelo @sites_digital, posicionado de forma limpa e discreta na base
+de cada tela.
+
+A cena panorâmica se passa em uma rua comercial brasileira urbana à noite, da esquerda
+para a direita:
+
+SLIDE 1 (CAPA): Split screen dramático. Metade esquerda: fachada de restaurante local
+apagada, sem movimento, iluminação fria e azulada, letreiro desligado, calçada vazia.
+Metade direita: mesmo estilo de restaurante totalmente iluminado, cheio, com tela de
+smartphone sobreposta mostrando busca "restaurante delivery perto de mim" e avaliações
+5 estrelas chegando em tempo real. Gradiente escuro semitransparente ao centro para
+leitura. Texto em negrito branco: "Seu restaurante some quando o cliente procura?"
+Subtítulo menor: "Enquanto você está off, o concorrente já faturou no seu lugar"
+Palavra em laranja neon de alto impacto: INVISÍVEL.
+
+SLIDE 2: Interior suave. Mãos masculinas segurando smartphone moderno, tela iluminada
+com pesquisa no Google de "restaurante delivery [cidade]". Resultados mostram
+concorrentes com fotos apetitosas, estrelas e botão "Pedir agora" — sem o restaurante
+do dono na lista. Fundo desfocado (bokeh quente âmbar). Texto: "O cliente pesquisa
+antes de pedir" com corpo de texto explicando que 7 em cada 10 pedidos começam com
+busca digital.
+
+SLIDE 3: Infográfico fotorrealista dividido ao meio com linha central clara. Lado
+esquerdo (cinza frio): restaurante sem digital — mesa vazia, caixa registradora parada,
+ícone de celular mudo, ícone X vermelho. Lado direito (laranja dourado): restaurante com
+Google Business otimizado — pedidos chegando, notificações de avaliação 5 estrelas,
+ícone de cifrão verde. Texto central em destaque: "Quem aparece fatura 3x mais".
+
+SLIDE 4 (CTA): Flat lay apetitoso. Prato de comida brasileira vibrante (marmita gourmet
+ou hambúrguer artesanal bem montado) sobre mesa de madeira rústica ao lado de smartphone
+com notificação "Novo pedido recebido ⭐⭐⭐⭐⭐". Iluminação natural quente e difusa.
+Bokeh suave no fundo. Rodapé com bloco laranja-queimado (#E85D04) contendo CTA em branco:
+'Manda "DELIVERY" no direct — diagnóstico gratuito'. @sites_digital discreto na base.
+
+Especificações técnicas:
+- Formato: imagem única panorâmica horizontal
+- Proporção total: 16:5 (recorte em 4 partes de 4:5 cada)
+- Estilo: fotorrealista urbano brasileiro, alta resolução, contraste dramático luz/sombra
+- Paleta principal: preto profundo, laranja queimado (#E85D04), branco puro, dourado (#FFD60A)
+- Resolução mínima: 4320x1350px
