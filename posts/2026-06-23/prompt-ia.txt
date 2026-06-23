@@ -1,45 +1,43 @@
-Crie um carrossel contínuo para o Instagram composto por 4 imagens integradas em uma
-única arte retangular panorâmica, que será recortada em 4 partes iguais (proporção
-final de cada tela: 4:5).
+PROMPT IA — GERAÇÃO DO CARROSSEL COMPLETO
 
-Regra obrigatória de branding: ignore qualquer marca d'água ou @ de outros perfis.
-Substitua todos pelo @sites_digital, posicionado de forma limpa e discreta na base
-de cada tela.
+Crie um carrossel contínuo para o Instagram composto por 4 imagens integradas em uma única arte retangular panorâmica, que será recortada em 4 partes iguais (proporção final de cada tela: 4:5).
 
-A cena panorâmica se passa em uma rua comercial brasileira urbana à noite, da esquerda
-para a direita:
+Regra obrigatória de branding: ignore qualquer marca d'água ou @ de outros perfis. Substitua todos pelo @sites_digital, posicionado de forma limpa e discreta na base de cada tela.
 
-SLIDE 1 (CAPA): Split screen dramático. Metade esquerda: fachada de restaurante local
-apagada, sem movimento, iluminação fria e azulada, letreiro desligado, calçada vazia.
-Metade direita: mesmo estilo de restaurante totalmente iluminado, cheio, com tela de
-smartphone sobreposta mostrando busca "restaurante delivery perto de mim" e avaliações
-5 estrelas chegando em tempo real. Gradiente escuro semitransparente ao centro para
-leitura. Texto em negrito branco: "Seu restaurante some quando o cliente procura?"
-Subtítulo menor: "Enquanto você está off, o concorrente já faturou no seu lugar"
-Palavra em laranja neon de alto impacto: INVISÍVEL.
+---
 
-SLIDE 2: Interior suave. Mãos masculinas segurando smartphone moderno, tela iluminada
-com pesquisa no Google de "restaurante delivery [cidade]". Resultados mostram
-concorrentes com fotos apetitosas, estrelas e botão "Pedir agora" — sem o restaurante
-do dono na lista. Fundo desfocado (bokeh quente âmbar). Texto: "O cliente pesquisa
-antes de pedir" com corpo de texto explicando que 7 em cada 10 pedidos começam com
-busca digital.
+DESCRIÇÃO DA CENA PANORÂMICA COMPLETA:
 
-SLIDE 3: Infográfico fotorrealista dividido ao meio com linha central clara. Lado
-esquerdo (cinza frio): restaurante sem digital — mesa vazia, caixa registradora parada,
-ícone de celular mudo, ícone X vermelho. Lado direito (laranja dourado): restaurante com
-Google Business otimizado — pedidos chegando, notificações de avaliação 5 estrelas,
-ícone de cifrão verde. Texto central em destaque: "Quem aparece fatura 3x mais".
+Uma narrativa visual noturna e urbana que percorre, da esquerda para a direita, a jornada de perda de um cliente por ausência digital — e a solução concreta para reverter isso.
 
-SLIDE 4 (CTA): Flat lay apetitoso. Prato de comida brasileira vibrante (marmita gourmet
-ou hambúrguer artesanal bem montado) sobre mesa de madeira rústica ao lado de smartphone
-com notificação "Novo pedido recebido ⭐⭐⭐⭐⭐". Iluminação natural quente e difusa.
-Bokeh suave no fundo. Rodapé com bloco laranja-queimado (#E85D04) contendo CTA em branco:
-'Manda "DELIVERY" no direct — diagnóstico gratuito'. @sites_digital discreto na base.
+TELA 1 (CAPA — esquerda): Cozinha doméstica noturna com cano vazando embaixo da pia. Uma pessoa adulta segura um smartphone com tela iluminada mostrando busca Google "encanador perto de mim". Os resultados visíveis mostram concorrentes com fotos profissionais e estrelas — exceto uma posição vazia marcada com "?" em vermelho pulsante. A iluminação é fria e azulada, dominada pela luz da tela. Texto sobreposto: "O CLIENTE PESQUISOU NO GOOGLE — VOCÊ NÃO APARECEU" em fonte sans-serif bold branca; subtítulo menor abaixo; destaque "SUMIDO" em vermelho néon no topo. Handle @sites_digital discreto na base.
+
+TELA 2: Transição para close extremo das mãos do cliente segurando o celular às 22:07h — vemos a tela com lista de resultados do Google. Concorrentes listados com avatares, avaliações 5 estrelas e botão "Ligar" ativo. Uma posição específica está vazia, com seta discreta apontando para ela. Fundo desfocado de ambiente doméstico escuro. A única luz é a tela. Texto: título no topo em caixa escura, corpo na base. Handle @sites_digital na base.
+
+TELA 3: Divide-se ao meio com um separador vertical sutil. Lado esquerdo em tons cinza-frios mostra um prestador de serviço sem digital: agenda quase vazia, apenas WhatsApp, sem avaliações, ícone de silêncio e calendário vazio. Lado direito em tons âmbar-quentes mostra o mesmo tipo de prestador com Google Business ativo, Instagram organizado, agenda cheia, notificações chegando — estrelas, sinos e cifrão visíveis. No centro do divisor, o dado "7 em 10" em fonte grande e impactante. Texto: título no topo. Handle @sites_digital na base.
+
+TELA 4 (CTA — direita): Close de mãos de trabalhador com callus visíveis segurando smartphone que exibe notificação "3 novos pedidos recebidos ⭐⭐⭐⭐⭐". Ao fundo, bokeh quente de ferramentas de trabalho (chave inglesa, nível, alicate). Iluminação natural quente lateral. Bloco laranja-escuro de borda a borda na base com texto CTA em branco bold: "MANDA 'APARECER' NO DIRECT". Handle @sites_digital acima do bloco, no canto.
+
+AMBIENTE GERAL: Fotorrealista, urbano, noturno com acentos quentes de âmbar e laranja. Progressão do frio (problema) para o quente (solução) da esquerda para a direita. Estilo documental e autêntico — sem artificialidade ou stock photo genérico. Sensação de vida real brasileira.
+
+PALETA PRINCIPAL:
+- Azul-cinza frio #1A2238 (slides 1 e 2 — problema)
+- Âmbar quente #E8872A (slides 3 e 4 — solução)
+- Laranja-escuro #C4581A (blocos de CTA e destaques)
+- Branco #FFFFFF (tipografia principal)
+- Vermelho néon #FF3B30 (destaque "SUMIDO" e ícone de ausência)
+
+TIPOGRAFIA: Sans-serif moderna e bold (estilo Montserrat ou similar). Hierarquia clara entre título (grande, bold), subtítulo (médio, regular) e corpo (pequeno, regular).
+
+TRANSIÇÃO ENTRE SLIDES: Os slides devem ter continuidade visual — a iluminação e os elementos arquitetônicos de fundo se conectam sutilmente de um slide para o outro, criando a sensação de movimento e fluxo narrativo quando vistos em sequência.
+
+ESTILO GERAL: Fotorrealista de alta qualidade, editorial, com profundidade de campo. Composição limpa com espaço para sobreposição de texto. Nenhum texto escrito na imagem além do @sites_digital — o texto do post será adicionado em pós-produção.
+
+---
 
 Especificações técnicas:
 - Formato: imagem única panorâmica horizontal
 - Proporção total: 16:5 (recorte em 4 partes de 4:5 cada)
-- Estilo: fotorrealista urbano brasileiro, alta resolução, contraste dramático luz/sombra
-- Paleta principal: preto profundo, laranja queimado (#E85D04), branco puro, dourado (#FFD60A)
+- Estilo: fotorrealista editorial, urbano e autêntico
+- Paleta principal: azul-frio + âmbar quente + laranja-escuro + branco
 - Resolução mínima: 4320x1350px
