@@ -1,86 +1,100 @@
-CATEGORIA: PROVOCAÇÃO | SEGMENTO: Restaurantes e delivery
+CATEGORIA: ERRO COMUM | SEGMENTO: Prestadores de serviço (encanador, eletricista, pintor)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TEMA DO POST
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-O cliente quis pedir delivery — mas foi no concorrente
+O erro que faz o cliente ligar para outro prestador
 
-Justificativa: Restaurantes locais perdem pedidos todo dia para concorrentes com
-presença digital estruturada; gatilho de perda + comparação com dado real (3x mais
-pedidos) = alto potencial viral e de salvamento.
+Justificativa: Em 2026, 7 em cada 10 contratações de serviços locais começam com busca
+no Google ou Instagram — prestadores sem presença digital perdem clientes para
+concorrentes que aparecem primeiro, mesmo sendo piores. Tema de altíssimo
+salvamento/compartilhamento entre autônomos e MEIs do setor de serviços.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 CONTEÚDO ESTRATÉGICO
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SLIDE 1 — CAPA
-Título principal: Seu restaurante some quando o cliente procura?
-Subtítulo: Enquanto você está off, o concorrente já faturou no seu lugar
-Destaque visual: INVISÍVEL
+Título principal: O cliente pesquisou no Google — você não apareceu
+Subtítulo: Esse erro faz prestadores de serviço perderem clientes todo dia
+Destaque visual: SUMIDO
 
 SLIDE 2
-Título: O cliente pesquisa antes de pedir
-Texto: Mais de 7 em cada 10 pedidos de delivery começam com uma busca no
-Google ou Instagram. Se o seu restaurante não aparece nos primeiros resultados,
-você perdeu o pedido antes de abrir a porta — e o cliente nem sabe que você existe.
+Título: Cliente ligou para o concorrente
+Texto: Às 22h, um cano furou na casa do seu futuro cliente. Ele abriu o Google,
+digitou "encanador perto de mim" — e você não apareceu. Em 3 minutos, ele ligou
+para outro. Não porque o outro é melhor. Só porque o outro apareceu primeiro.
 
 SLIDE 3
-Título: Quem aparece fatura 3x mais
-Texto: Restaurantes com Google Business otimizado recebem em média 3 vezes mais
-pedidos que os sem perfil. Foto do prato, horário atualizado e avaliações positivas
-valem mais que qualquer panfleto — e custam zero de impressão.
+Título: Indicação não basta mais
+Texto: Em 2026, 7 em cada 10 contratações de prestadores começam online. O cliente
+quer ver avaliações, foto do serviço realizado e forma de contato antes de ligar.
+Quem não tem isso perde — mesmo sendo o melhor profissional da cidade.
 
 SLIDE 4 — CTA
-Título: Seu restaurante aparece agora?
-Texto: A Digital Sites descobre onde você está perdendo clientes e resolve rápido.
-CTA: Manda "DELIVERY" no direct — diagnóstico gratuito
+Título: Cadê você quando ele busca?
+Texto: A Digital Sites coloca seu serviço na frente dos clientes certos, na hora exata.
+CTA: Manda "APARECER" no direct — diagnóstico gratuito
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 DIREÇÃO VISUAL
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 DIREÇÃO VISUAL — SLIDE 1 (CAPA)
-Tipo de imagem: Fotografia urbana noturna — split screen
-Assunto: Metade esquerda: fachada de restaurante apagada, sem movimento, fechado.
-         Metade direita: restaurante iluminado, cheio, com tela de delivery sobreposta
-         mostrando avaliações 5 estrelas e pedidos chegando
-Ângulo/composição: Vista frontal de rua, perspectiva levemente elevada, divisão central
-Iluminação: Esquerda — fria e azulada (ausência, abandono); Direita — âmbar quente e
-            laranja neon (vida, movimento, faturamento)
-Efeito/tratamento: Overlay de smartphone com busca "restaurante delivery perto de mim"
-                   no lado direito; gradiente escuro semitransparente para legibilidade
-Mood: Urgência, contraste dramático, perda vs ganho
-Posição do texto: Centro vertical; destaque "INVISÍVEL" em laranja neon no topo
+Tipo de imagem: Fotografia urbana noturna — cena de emergência doméstica
+Assunto: Cozinha com cano vazando à noite; pessoa segurando smartphone mostrando
+         busca no Google com lista de prestadores — todos com fotos e estrelas, exceto
+         um resultado vazio marcado com "?" em vermelho
+Ângulo/composição: Over-the-shoulder levemente elevado, tela do celular em destaque
+Iluminação: Luz fria azulada da tela do celular + reflexo da água; ambiente escuro e
+            tenso; contraste entre urgência e abandono digital
+Efeito/tratamento: Overlay semitransparente com resultados do Google; posição vazia
+                   com ícone de interrogação vermelho pulsando; gradiente escuro suave
+Mood: Urgência imediata, perda concreta, realidade cotidiana
+Posição do texto: "SUMIDO" em vermelho néon no topo; título bold centralizado no
+                  terço inferior; subtítulo em fonte menor abaixo do título
 
 DIREÇÃO VISUAL — SLIDE 2
-Tipo de imagem: Fotografia de cena cotidiana — detalhe de mãos
-Assunto: Mãos segurando smartphone mostrando resultados de busca Google/Instagram
-         "restaurante delivery [cidade]" — concorrentes aparecem com fotos e estrelas,
-         o restaurante do dono não aparece em lugar algum
-Ângulo/composição: Over-the-shoulder levemente inclinado, foco na tela iluminada
-Iluminação: Luz suave e fria vinda da tela; fundo desfocado com bokeh quente ao fundo
-Efeito/tratamento: Zoom digital na tela com marcação visual nos resultados
-Mood: Identificação imediata, realidade cotidiana
-Posição do texto: Título no topo em caixa escura; corpo do texto na base
+Tipo de imagem: Close fotográfico — ponto de vista do cliente
+Assunto: Mãos masculinas adultas segurando celular às 22:07h com tela de busca
+         "encanador perto de mim"; lista de concorrentes com fotos, avaliações
+         5 estrelas e botão "Ligar" ativo; posição específica vazia no final da lista
+Ângulo/composição: Close em detalhe das mãos + tela inclinada; fundo desfocado
+                   de ambiente doméstico noturno
+Iluminação: Única fonte: luz da tela; ambiente escuro ao redor para gerar contraste
+Efeito/tratamento: Zoom digital na tela com detalhe dos resultados; relógio no
+                   canto superior "22:07"; seta discreta apontando para vaga vazia
+Mood: Cotidiano real, decisão rápida, identificação imediata
+Posição do texto: Título no topo em caixa escura semitransparente;
+                  corpo do texto na base em bloco sólido escuro
 
 DIREÇÃO VISUAL — SLIDE 3
 Tipo de imagem: Infográfico fotorrealista — comparação lado a lado
-Assunto: Esquerda: restaurante sem digital — mesa vazia, caixa parada, nenhuma
-         notificação. Direita: restaurante com Google Business otimizado — pedidos
-         chegando, avaliações 5 estrelas, tela cheia de notificações
-Ângulo/composição: Horizontal simétrico, dois blocos com divisão central clara
-Iluminação: Esquerda — fria, cinza, sem vida; Direita — quente, dourada, vibrante
-Efeito/tratamento: Ícones minimalistas de estrela, sino de notificação e cifrão
-                   sobre o lado direito; ícone X e silêncio no lado esquerdo
-Mood: Comparação direta, clareza absoluta, impacto de dado real
-Posição do texto: Título no topo centralizado; dado "3x mais pedidos" em destaque
+Assunto: Dois prestadores lado a lado — esquerda: só tem WhatsApp e indicação,
+         agenda quase vazia, sem avaliações, nenhum pedido novo; direita: Google
+         Business otimizado, Instagram ativo, agenda cheia, notificações chegando
+Ângulo/composição: Vista frontal simétrica com divisor central vertical; dois
+                   blocos de igual tamanho e peso visual
+Iluminação: Esquerda em tons frios cinza-azulados (estagnação); direita em tons
+            quentes âmbar e laranja (movimento e prosperidade)
+Efeito/tratamento: Ícones de estrela ×5, sino de notificação e cifrão no lado
+                   direito; ícone de silêncio e calendário vazio no lado esquerdo;
+                   dado "7 em 10" em destaque no centro
+Mood: Comparação direta e clara, dado impactante, consequência visível e tangível
+Posição do texto: Título centralizado no topo; "7 em 10" em fonte grande no
+                  centro como divisor visual entre os dois lados
 
 DIREÇÃO VISUAL — SLIDE 4 (CTA)
-Tipo de imagem: Flat lay fotográfico apetitoso
-Assunto: Prato de comida brasileira vibrante ao lado de smartphone com notificação
-         "Novo pedido recebido ⭐⭐⭐⭐⭐" e avaliação 5 estrelas em destaque
-Ângulo/composição: Flat lay levemente angular (45°), composição centralizada e arejada
-Iluminação: Natural difusa e quente, tom apetitoso, sem sombras duras
-Efeito/tratamento: Bokeh suave no fundo de madeira rústica; detalhes nítidos no prato
-Mood: Sucesso concreto, apetite, resultado palpável
-Posição do texto: Rodapé com bloco laranja-queimado de alto contraste contendo o CTA
+Tipo de imagem: Fotografia de resultado concreto — mãos de trabalhador + digital
+Assunto: Mãos de trabalhador com callus visíveis segurando smartphone mostrando
+         notificação "3 novos pedidos recebidos ⭐⭐⭐⭐⭐"; ferramentas (chave inglesa,
+         nível, alicate) desfocadas ao fundo com bokeh quente
+Ângulo/composição: Close médio nas mãos; ângulo levemente diagonal (15°);
+                   tela do celular bem nítida, ferramentas em bokeh suave
+Iluminação: Natural quente de espaço de trabalho; luz lateral suave sem sombras
+            duras; tom dourado que remete a conquista e satisfação
+Efeito/tratamento: Brilho suave (glow) sobre a notificação na tela; fundo bokeh
+                   com ferramentas; contraste nítido entre mãos e tela
+Mood: Conquista concreta, orgulho profissional, resultado palpável e realista
+Posição do texto: Bloco laranja-escuro de borda a borda na base; texto CTA em
+                  branco bold; @sites_digital discreto acima do bloco
