@@ -4,40 +4,30 @@ Crie um carrossel contínuo para o Instagram composto por 4 imagens integradas e
 
 Regra obrigatória de branding: ignore qualquer marca d'água ou @ de outros perfis. Substitua todos pelo @sites_digital, posicionado de forma limpa e discreta na base de cada tela.
 
----
+CENA PANORÂMICA CONTÍNUA — NARRATIVA EM 4 ATOS:
 
-DESCRIÇÃO DA CENA PANORÂMICA COMPLETA:
+Cenário global: Barbearia masculina urbana contemporânea brasileira. Ambiente sofisticado com cadeiras de couro preto, espelhos com molduras escuras, iluminação mista (neon e âmbar), elementos clássicos (tesouras, pentes, frascos de produto) e toques modernos (smartphones, tablets com agendamentos). A narrativa progride da escuridão e perda (esquerda) para a luz e o sucesso (direita).
 
-Uma narrativa visual noturna e urbana que percorre, da esquerda para a direita, a jornada de perda de um cliente por ausência digital — e a solução concreta para reverter isso.
+ATO 1 — SLIDE 1 (CAPA): Visão noturna exterior da barbearia a partir da calçada úmida. Fachada moderna e bem iluminada com letreiro sutil. Cadeira de barbeiro vazia de couro preto visível pela vitrine, em destaque como elemento central. Uma silhueta masculina caminha na calçada com smartphone na mão sem olhar para o estabelecimento. Overlay translúcido de mapa estilizado com pinos de concorrentes ao fundo. Tipografia de impacto: "27/H" em laranja neon grande. Título abaixo: "Por que seus clientes somem sem avisar?" em branco bold. Paleta: azul noturno (#1A2742), laranja neon (#FF6B00), branco (#FFFFFF).
 
-TELA 1 (CAPA — esquerda): Cozinha doméstica noturna com cano vazando embaixo da pia. Uma pessoa adulta segura um smartphone com tela iluminada mostrando busca Google "encanador perto de mim". Os resultados visíveis mostram concorrentes com fotos profissionais e estrelas — exceto uma posição vazia marcada com "?" em vermelho pulsante. A iluminação é fria e azulada, dominada pela luz da tela. Texto sobreposto: "O CLIENTE PESQUISOU NO GOOGLE — VOCÊ NÃO APARECEU" em fonte sans-serif bold branca; subtítulo menor abaixo; destaque "SUMIDO" em vermelho néon no topo. Handle @sites_digital discreto na base.
+ATO 2 — SLIDE 2: Interior dividido por linha de luz vertical ao centro. Lado esquerdo: barbeiro em posição pensativa olhando para agenda vazia ou celular sem notificações, expressão de preocupação contida, cadeira vazia ao fundo, paleta fria e desaturada (cinzas azulados). Lado direito: mesma barbearia em versão paralela cheia de movimento — clientes, sons (representados por ícones musicais sutis), avaliações Google em overlay e notificação de smartphone: "Novo agendamento — João S.". Balão de fala flutuante: "Fui em outra, achei no Google". Paleta direita: âmbar e laranja quentes (#D4A017, #FF6B00).
 
-TELA 2: Transição para close extremo das mãos do cliente segurando o celular às 22:07h — vemos a tela com lista de resultados do Google. Concorrentes listados com avatares, avaliações 5 estrelas e botão "Ligar" ativo. Uma posição específica está vazia, com seta discreta apontando para ela. Fundo desfocado de ambiente doméstico escuro. A única luz é a tela. Texto: título no topo em caixa escura, corpo na base. Handle @sites_digital na base.
+ATO 3 — SLIDE 3: Close fotorrealista de mão masculina com aliança segurando smartphone moderno. Na tela do smartphone: resultado de busca "barbearia centro [cidade]" — 4 estabelecimentos concorrentes listados com fotos de qualidade, avaliações 4,8 e 4,9 estrelas, horários de funcionamento. No final da lista, espaço em branco vazio marcado com círculo vermelho pulsante e seta apontando: "Você não está aqui". Fundo totalmente desfocado em bokeh laranja-dourado quente com tesouras profissionais, pentes e frasco de pomada reconhecíveis mas suaves. Sobreposição tipográfica clean listando os 3 erros principais com ícones minimalistas de alerta.
 
-TELA 3: Divide-se ao meio com um separador vertical sutil. Lado esquerdo em tons cinza-frios mostra um prestador de serviço sem digital: agenda quase vazia, apenas WhatsApp, sem avaliações, ícone de silêncio e calendário vazio. Lado direito em tons âmbar-quentes mostra o mesmo tipo de prestador com Google Business ativo, Instagram organizado, agenda cheia, notificações chegando — estrelas, sinos e cifrão visíveis. No centro do divisor, o dado "7 em 10" em fonte grande e impactante. Texto: título no topo. Handle @sites_digital na base.
+ATO 4 — SLIDE 4 (CTA): Retrato editorial de barbeiro jovem (25-35 anos), look cuidado, avental de couro escuro, segurando tesoura profissional com postura confiante e sorriso autêntico. Ângulo levemente baixo para transmitir autoridade e confiança. Ao fundo em bokeh dourado suave: barbearia cheia com silhuetas de clientes sendo atendidos. Smartphone no balcão de mármore escuro em primeiro plano com notificações visíveis: "3 agendamentos confirmados hoje" e estrela de 5 pontos. Partículas douradas e bokeh quente. Rodapé com bloco escuro semi-opaco: texto do CTA em branco bold, palavra "gratuito" em laranja. @sites_digital discreto na base.
 
-TELA 4 (CTA — direita): Close de mãos de trabalhador com callus visíveis segurando smartphone que exibe notificação "3 novos pedidos recebidos ⭐⭐⭐⭐⭐". Ao fundo, bokeh quente de ferramentas de trabalho (chave inglesa, nível, alicate). Iluminação natural quente lateral. Bloco laranja-escuro de borda a borda na base com texto CTA em branco bold: "MANDA 'APARECER' NO DIRECT". Handle @sites_digital acima do bloco, no canto.
-
-AMBIENTE GERAL: Fotorrealista, urbano, noturno com acentos quentes de âmbar e laranja. Progressão do frio (problema) para o quente (solução) da esquerda para a direita. Estilo documental e autêntico — sem artificialidade ou stock photo genérico. Sensação de vida real brasileira.
-
-PALETA PRINCIPAL:
-- Azul-cinza frio #1A2238 (slides 1 e 2 — problema)
-- Âmbar quente #E8872A (slides 3 e 4 — solução)
-- Laranja-escuro #C4581A (blocos de CTA e destaques)
-- Branco #FFFFFF (tipografia principal)
-- Vermelho néon #FF3B30 (destaque "SUMIDO" e ícone de ausência)
-
-TIPOGRAFIA: Sans-serif moderna e bold (estilo Montserrat ou similar). Hierarquia clara entre título (grande, bold), subtítulo (médio, regular) e corpo (pequeno, regular).
-
-TRANSIÇÃO ENTRE SLIDES: Os slides devem ter continuidade visual — a iluminação e os elementos arquitetônicos de fundo se conectam sutilmente de um slide para o outro, criando a sensação de movimento e fluxo narrativo quando vistos em sequência.
-
-ESTILO GERAL: Fotorrealista de alta qualidade, editorial, com profundidade de campo. Composição limpa com espaço para sobreposição de texto. Nenhum texto escrito na imagem além do @sites_digital — o texto do post será adicionado em pós-produção.
-
----
+Elementos visuais recorrentes que garantem coesão panorâmica:
+- A cadeira de barbeiro icônica em diferentes estados ao longo dos 4 atos: vazia (capa) → disputada (slide 2) → buscada (slide 3) → conquistada (slide 4)
+- Smartphones como elemento de transição e narrativa visual entre os atos
+- Progressão cromática horizontal: azul frio noturno (problema/esquerda) evolui para laranja dourado quente (solução/direita)
+- Textura de fundo: madeira escura, mármore cinza, couro preto — elementos de identidade da barbearia moderna
+- Tipografia consistente: sans-serif condensada bold em branco com acentos em laranja (#FF6B00)
+- @sites_digital em tipografia clean na base de cada quadrante, discreto mas presente
 
 Especificações técnicas:
 - Formato: imagem única panorâmica horizontal
 - Proporção total: 16:5 (recorte em 4 partes de 4:5 cada)
-- Estilo: fotorrealista editorial, urbano e autêntico
-- Paleta principal: azul-frio + âmbar quente + laranja-escuro + branco
+- Estilo: fotorrealismo editorial com elementos de UI/mockup integrados — limpo, moderno e urbano
+- Paleta principal: preto profundo (#0D0D0D), branco (#FFFFFF), laranja neon (#FF6B00), âmbar dourado (#D4A017), azul noturno (#1A2742)
 - Resolução mínima: 4320x1350px
+- Mood geral: urgência com esperança — o problema é real e doloroso, mas a solução está ao alcance da mão

@@ -1,100 +1,105 @@
-CATEGORIA: ERRO COMUM | SEGMENTO: Prestadores de serviço (encanador, eletricista, pintor)
+CATEGORIA: ERRO COMUM | SEGMENTO: Barbearias e salões de beleza
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TEMA DO POST
+ETAPA 1 — PESQUISA E JUSTIFICATIVA
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-O erro que faz o cliente ligar para outro prestador
+Tendência identificada: Em 2025, foram abertas 236 mil novas empresas de beleza no
+Brasil — média de 27 por hora (crescimento de 18,5%). Com o mercado hipersaturado,
+barbearias e salões sem presença digital ativa perdem clientes para novos concorrentes
+sem perceber. Buscas em alta no Instagram em junho/2026: "barbearia perto de mim",
+"agendamento online barbearia", "barbearia [cidade]". Casos documentados mostram
+barbearias crescendo 300% em faturamento após adotar marketing digital estruturado.
 
-Justificativa: Em 2026, 7 em cada 10 contratações de serviços locais começam com busca
-no Google ou Instagram — prestadores sem presença digital perdem clientes para
-concorrentes que aparecem primeiro, mesmo sendo piores. Tema de altíssimo
-salvamento/compartilhamento entre autônomos e MEIs do setor de serviços.
+Escolha estratégica: ERRO COMUM maximiza salvamentos (donos guardam para aplicar
+depois) — formato ideal para segunda-feira, início de semana de decisões. Barbearias
+e salões é o segmento com o dado de impacto mais forte disponível e não foi abordado
+nos últimos 4 posts. Categoria ERRO COMUM não foi usada nesta semana.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-CONTEÚDO ESTRATÉGICO
+ETAPA 2 — CONTEÚDO ESTRATÉGICO
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CATEGORIA DO POST: ERRO COMUM
+SEGMENTO DO DIA: Barbearias e salões de beleza
+TEMA: Clientes somem sem avisar — dado chocante (27 novas barbearias por hora no
+Brasil) torna urgente a fidelização digital para o segmento. Alta taxa de salvamento.
 
 SLIDE 1 — CAPA
-Título principal: O cliente pesquisou no Google — você não apareceu
-Subtítulo: Esse erro faz prestadores de serviço perderem clientes todo dia
-Destaque visual: SUMIDO
+Título principal: Por que seus clientes somem sem avisar?
+Subtítulo: A cada hora, 27 novas barbearias abrem no Brasil
+Destaque visual: 27/H
 
 SLIDE 2
-Título: Cliente ligou para o concorrente
-Texto: Às 22h, um cano furou na casa do seu futuro cliente. Ele abriu o Google,
-digitou "encanador perto de mim" — e você não apareceu. Em 3 minutos, ele ligou
-para outro. Não porque o outro é melhor. Só porque o outro apareceu primeiro.
+Título: Seu cliente não te esqueceu de propósito
+Texto: Entre um corte e outro passam semanas. Nesse intervalo, uma barbearia nova
+abriu na esquina com perfil cheio, avaliações no Google e agendamento pelo WhatsApp.
+Quando o cliente pesquisou, você não apareceu — e ele foi em outra sem culpa nenhuma.
 
 SLIDE 3
-Título: Indicação não basta mais
-Texto: Em 2026, 7 em cada 10 contratações de prestadores começam online. O cliente
-quer ver avaliações, foto do serviço realizado e forma de contato antes de ligar.
-Quem não tem isso perde — mesmo sendo o melhor profissional da cidade.
+Título: O erro que custa clientes todo mês
+Texto: Barbearia sem Instagram ativo, sem Google Business atualizado e sem lembrete
+digital perde entre 30% e 50% dos clientes para a concorrência silenciosa. O cliente
+não avisou que foi embora — e você nem sabe quantos sumiram esse mês.
 
 SLIDE 4 — CTA
-Título: Cadê você quando ele busca?
-Texto: A Digital Sites coloca seu serviço na frente dos clientes certos, na hora exata.
-CTA: Manda "APARECER" no direct — diagnóstico gratuito
+Título: Quantos você perdeu esse mês?
+Texto: A Digital Sites descobre seus pontos de fuga e traz os clientes de volta.
+CTA: Manda "BARBEARIA" no direct — diagnóstico 100% gratuito
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-DIREÇÃO VISUAL
+ETAPA 3 — DIREÇÃO VISUAL
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 DIREÇÃO VISUAL — SLIDE 1 (CAPA)
-Tipo de imagem: Fotografia urbana noturna — cena de emergência doméstica
-Assunto: Cozinha com cano vazando à noite; pessoa segurando smartphone mostrando
-         busca no Google com lista de prestadores — todos com fotos e estrelas, exceto
-         um resultado vazio marcado com "?" em vermelho
-Ângulo/composição: Over-the-shoulder levemente elevado, tela do celular em destaque
-Iluminação: Luz fria azulada da tela do celular + reflexo da água; ambiente escuro e
-            tenso; contraste entre urgência e abandono digital
-Efeito/tratamento: Overlay semitransparente com resultados do Google; posição vazia
-                   com ícone de interrogação vermelho pulsando; gradiente escuro suave
-Mood: Urgência imediata, perda concreta, realidade cotidiana
-Posição do texto: "SUMIDO" em vermelho néon no topo; título bold centralizado no
-                  terço inferior; subtítulo em fonte menor abaixo do título
+Tipo de imagem: Fotografia editorial urbana noturna
+Assunto: Barbearia masculina moderna vista da calçada — cadeira de barbeiro vazia em
+         destaque dentro do estabelecimento iluminado; silhueta de homem passando na
+         rua sem olhar, com smartphone na mão mostrando busca "barbearia perto de mim"
+Ângulo/composição: Plano geral de perspectiva a partir da calçada, levemente angular,
+                   foco na cadeira vazia com fachada iluminada ao fundo
+Iluminação: Interior âmbar e quente contrastando com o azul frio da rua noturna;
+            fachada com letreiro luminoso suave
+Efeito/tratamento: Overlay de mapa estilizado translúcido com pinos de concorrentes
+                   ao fundo; número "27/H" em laranja neon no centro superior
+Mood: Tensão silenciosa, competição invisível, urgência sem pânico
+Posição do texto: Título em branco bold na metade inferior da tela; "27/H" em
+                  destaque grande acima do título em laranja neon
 
 DIREÇÃO VISUAL — SLIDE 2
-Tipo de imagem: Close fotográfico — ponto de vista do cliente
-Assunto: Mãos masculinas adultas segurando celular às 22:07h com tela de busca
-         "encanador perto de mim"; lista de concorrentes com fotos, avaliações
-         5 estrelas e botão "Ligar" ativo; posição específica vazia no final da lista
-Ângulo/composição: Close em detalhe das mãos + tela inclinada; fundo desfocado
-                   de ambiente doméstico noturno
-Iluminação: Única fonte: luz da tela; ambiente escuro ao redor para gerar contraste
-Efeito/tratamento: Zoom digital na tela com detalhe dos resultados; relógio no
-                   canto superior "22:07"; seta discreta apontando para vaga vazia
-Mood: Cotidiano real, decisão rápida, identificação imediata
-Posição do texto: Título no topo em caixa escura semitransparente;
-                  corpo do texto na base em bloco sólido escuro
+Tipo de imagem: Composição díptico — dois frames lado a lado separados por linha fina
+Assunto: Esquerda: barbeiro com expressão pensativa olhando para agenda vazia ou
+         celular sem notificações, cadeira vazia ao fundo.
+         Direita: barbearia concorrente cheia, avaliações Google sobrepostas na tela
+         e notificação de agendamento confirmado
+Ângulo/composição: Plano médio nos dois lados, divisão limpa ao centro com linha fina
+                   branca de 2px
+Iluminação: Esquerda — fria, cinza, desaturada, flat; Direita — dourada, vibrante, viva
+Efeito/tratamento: Balão de texto estilizado à direita com mensagem:
+                   "Fui em outra, achei no Google"
+Mood: Identificação dolorosa mas reconhecível, contraste imediato e didático
+Posição do texto: Título em topo em bloco escuro semitransparente; texto nas bases
 
 DIREÇÃO VISUAL — SLIDE 3
-Tipo de imagem: Infográfico fotorrealista — comparação lado a lado
-Assunto: Dois prestadores lado a lado — esquerda: só tem WhatsApp e indicação,
-         agenda quase vazia, sem avaliações, nenhum pedido novo; direita: Google
-         Business otimizado, Instagram ativo, agenda cheia, notificações chegando
-Ângulo/composição: Vista frontal simétrica com divisor central vertical; dois
-                   blocos de igual tamanho e peso visual
-Iluminação: Esquerda em tons frios cinza-azulados (estagnação); direita em tons
-            quentes âmbar e laranja (movimento e prosperidade)
-Efeito/tratamento: Ícones de estrela ×5, sino de notificação e cifrão no lado
-                   direito; ícone de silêncio e calendário vazio no lado esquerdo;
-                   dado "7 em 10" em destaque no centro
-Mood: Comparação direta e clara, dado impactante, consequência visível e tangível
-Posição do texto: Título centralizado no topo; "7 em 10" em fonte grande no
-                  centro como divisor visual entre os dois lados
+Tipo de imagem: Mockup de smartphone integrado com ambiente real
+Assunto: Mão masculina segurando smartphone com resultado de busca "barbearia [cidade]"
+         — 4 concorrentes aparecem com fotos, estrelas e endereços; espaço em branco
+         marcado com círculo vermelho indicando que o negócio do dono não aparece
+Ângulo/composição: 3/4 sobre a tela; fundo desfocado com tesoura, pente e poltrona
+                   de barbeiro em bokeh laranja-quente e dourado
+Iluminação: Luz da tela iluminando as mãos; ambiente ao fundo em luz âmbar quente
+Efeito/tratamento: Círculo vermelho e seta apontando o espaço vazio nos resultados;
+                   tipografia clean sobreposta listando os 3 erros principais
+Mood: Revelação, choque de realidade, momento "ah-ha" imediato e impactante
+Posição do texto: Título no topo em caixa semitransparente; lista de erros na base
 
 DIREÇÃO VISUAL — SLIDE 4 (CTA)
-Tipo de imagem: Fotografia de resultado concreto — mãos de trabalhador + digital
-Assunto: Mãos de trabalhador com callus visíveis segurando smartphone mostrando
-         notificação "3 novos pedidos recebidos ⭐⭐⭐⭐⭐"; ferramentas (chave inglesa,
-         nível, alicate) desfocadas ao fundo com bokeh quente
-Ângulo/composição: Close médio nas mãos; ângulo levemente diagonal (15°);
-                   tela do celular bem nítida, ferramentas em bokeh suave
-Iluminação: Natural quente de espaço de trabalho; luz lateral suave sem sombras
-            duras; tom dourado que remete a conquista e satisfação
-Efeito/tratamento: Brilho suave (glow) sobre a notificação na tela; fundo bokeh
-                   com ferramentas; contraste nítido entre mãos e tela
-Mood: Conquista concreta, orgulho profissional, resultado palpável e realista
-Posição do texto: Bloco laranja-escuro de borda a borda na base; texto CTA em
-                  branco bold; @sites_digital discreto acima do bloco
+Tipo de imagem: Fotografia editorial — retrato confiante de barbeiro
+Assunto: Barbeiro jovem e bem-cuidado segurando tesoura profissional com sorriso
+         confiante; ao fundo, barbearia cheia com clientes e smartphone no balcão
+         mostrando notificações de agendamentos confirmados
+Ângulo/composição: Plano médio-próximo, ângulo levemente baixo (heroico), fundo em
+                   bokeh com barbearia movimentada
+Iluminação: Hora dourada, luz frontal suave e natural, sem sombras duras
+Efeito/tratamento: Notificações flutuantes de "Novo agendamento!" e "5 estrelas!"
+                   ao redor do smartphone; partículas douradas sutis ao fundo
+Mood: Sucesso tangível, confiança, transformação real e alcançável
+Posição do texto: Rodapé em bloco escuro com CTA em branco bold e laranja em "gratuito"
